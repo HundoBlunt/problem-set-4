@@ -3,7 +3,7 @@
  */
 
 function hello() {
-  var p = document.getElementById("output1");
+  let p = document.getElementById("output1");
   p.innerHTML=("Hello, AP Computer Science Principles!");
   ////////////////// DO NOT MODIFY
   check("hello"); // DO NOT MODIFY
@@ -61,7 +61,7 @@ function fahrenheit() {
   // The above code generates a random number between -100 and 1000
   // (inclusive), and rounds this value to 2 decimal places.
 
-    document.getElementById("output4").innerHTML=(fahr + " degrees Fahrenheit equals " + ((fahr - 32) * (5 / 9)).toFixed(2) + " degrees Celsius."); 
+    document.getElementById("output4").innerHTML=(fahr + " degrees Fahrenheit equals " + ((fahr - 32) * (5 / 9)).toFixed(2) + " degrees Celsius.");
 
   ///////////////////////////// DO NOT MODIFY
   check("fahrenheit", fahr); // DO NOT MODIFY
@@ -85,7 +85,9 @@ function inches() {
   let inches = input; // DO NOT MODIFY
   ////////////////////// DO NOT MODIFY
 
-  // WRITE YOUR EXERCISE 5 CODE HERE
+  let miles = Math.Floor(inches / 63360);
+  let yards = Math.Floor(inches / 36);
+  let
 
   ////////////////////////// DO NOT MODIFY
   check("inches", input); // DO NOT MODIFY
